@@ -2,15 +2,15 @@ import styled from 'styled-components';
 import { NavLink } from "react-router-dom"
 
 const Nav = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+text-align: center;
 `;
 
 export default Nav; 
 
  export const NavbarLink = styled(NavLink)`
-  color: red;
+  margin: 1rem;
+  color: black;
+  text-decoration: none;
 `;
 
 

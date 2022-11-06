@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Router = () => {
+const Projects = () => {
   return (
     <div>
-      
+      Projects
     </div>
   )
 }
 
-export default Router
+export default Projects
