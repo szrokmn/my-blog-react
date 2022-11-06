@@ -1,12 +1,22 @@
 import styled from 'styled-components';
 
-const H1 = styled.h1`
+const HeaderNav = styled.div`
 width:100%;
-height:10rem;
-background-color: #8000ff;
-display: flex;
+/* height:10rem; */
+/* padding: 2rem 0; */
+text-align: center;
+
+/* display: flex;
 align-items: center;
-justify-content: center;
+justify-content: center; */
 `;
 
-export default H1;
+export default HeaderNav;
+
+export const H1 = styled.div`
+background-color: #8000ff;
+padding: 2rem 0;
+`;
+
+
+
