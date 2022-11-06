@@ -1,9 +1,15 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom"
+import Home from "../pages/Home"
+import About from "../pages/About"
+import Videos from "../pages/Videos"
+import Projects from "../pages/Projects"
+import Medium from "../pages/Medium"
+import Contact from "../pages/Contact"
 
-const Router = () => {
+const AppRouter = () => {
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
@@ -12,8 +18,8 @@ const Router = () => {
         <Route path="/medium" element={<Medium/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
-    </div>
+    </>
   )
 }
 
-export default Router
+export default AppRouter
