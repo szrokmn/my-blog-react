@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: red;
+
 
 `;
 
@@ -15,7 +15,7 @@ export default Nav;
  export const NavbarLink = styled(NavLink)`
   margin:1.5rem;
   color: black;
-  text-decoration: none;
+  text-decoration: none;  
 `;
 
 

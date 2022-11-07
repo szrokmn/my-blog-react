@@ -1,12 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
-import HeaderNav, { H1 } from "./Header.styled";
+import HeaderNav, { H1, TopHeader } from "./Header.styled";
+import Time from "../Time/Time";
 
 const Header = () => {
   return (
     <HeaderNav>
-      <H1>FULL STACK DEVELOPER</H1>
+      <TopHeader>
+        <Time />
+        <H1>FULL STACK DEVELOPER</H1>
+      </TopHeader>
       <Navbar />
     </HeaderNav>
   );
