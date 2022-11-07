@@ -2,10 +2,11 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa"
 import { SiGithub } from "react-icons/si"
 import { AiFillMediumCircle } from "react-icons/ai"
+import Footer from "./Footer.styled"
 
 const Footer = () => {
     return (
-        <div>
+        <FooterStyle>
             <h4>SEZER ÖKMEN</h4>
             <div>
                 <a href="https://www.linkedin.com/in/sezer-%C3%B6kmen/">
@@ -18,7 +19,7 @@ const Footer = () => {
                     <AiFillMediumCircle />
                 </a>
             </div>
-        </div>
+        </FooterStyle>
     )
 }
 

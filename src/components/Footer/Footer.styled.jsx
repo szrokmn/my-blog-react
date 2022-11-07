@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const Footer = styled.footer`
+export const FooterStyle = styled.footer`
 width:100%;
 height: 5rem;
 
 `;
 
-export default Footer;
+

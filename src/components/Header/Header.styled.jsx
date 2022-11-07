@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HeaderNav = styled.div`
-width:100%;
+width:80%;
 text-align: center;
 box-shadow: 0 4PX 8PX #00FFFF, 0 6PX 20PX 0 rgb(0, 0, 0, 0.19);
 
