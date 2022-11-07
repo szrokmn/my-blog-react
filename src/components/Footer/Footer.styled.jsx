@@ -12,6 +12,14 @@ export const H4 = styled.h4`
 width: 300px;
 `;
 
+export const SocialMediaDiv = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 2rem;
+`;
+
+
 
 
 
