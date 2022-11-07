@@ -2,12 +2,12 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa"
 import { SiGithub } from "react-icons/si"
 import { AiFillMediumCircle } from "react-icons/ai"
-import { FooterStyle } from "./Footer.styled"
+import { FooterStyle, H4 } from "./Footer.styled"
 
 const Footer = () => {
     return (
         <FooterStyle>
-            <h4>by Sezer ÖKMEN</h4>
+            <H4>by Sezer ÖKMEN</H4>
             <div>
                 <a href="https://www.linkedin.com/in/sezer-%C3%B6kmen/">
                     <FaLinkedin />
